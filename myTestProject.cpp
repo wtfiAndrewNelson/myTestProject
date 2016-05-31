@@ -14,7 +14,7 @@ int main() {
 
 
 	if(capWebcam.isOpened() == false) {									// check if VideoCapture object was associated to webcam succesfully
-		std::cout << "error: capWebcam not accessed successuflly\n\n";	// if not print error message to std out
+		std::cout << "error: capWebcam not available\n\n";	// error message to std out
 		return(1);														// and exit program
 	}
 	capWebcam.set(CV_CAP_PROP_FRAME_WIDTH, 640);

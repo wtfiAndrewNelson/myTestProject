@@ -1,5 +1,7 @@
-/*  This is my c++ project for learning
-    github. Please be kind.
+/*  This is my c++ project for learning github. Comments are formatted for
+    Notepad++ and don't seem to line up all that well here.
+    
+    Please be kind.
 */
 
 #include<opencv2/core/core.hpp>
